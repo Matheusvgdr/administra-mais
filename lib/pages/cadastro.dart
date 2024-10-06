@@ -1,10 +1,11 @@
+import 'package:administra_mais/pages/login.dart';
 import 'package:administra_mais/ui/botao_widget.dart';
 import 'package:administra_mais/ui/input_widget.dart';
 import 'package:administra_mais/ui/titulo_inicial.dart';
 import 'package:flutter/material.dart';
 
-class TelaCadastro extends StatelessWidget {
-  const TelaCadastro({super.key});
+class Cadastro extends StatelessWidget {
+  const Cadastro({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -29,11 +30,11 @@ class TelaCadastro extends StatelessWidget {
                             placeholder: "Email", iconePrefixo: Icons.email),
                         SizedBox(height: 20),
                         InputWidget(
-                            placeholder: "Email",
+                            placeholder: "Senha",
                             iconePrefixo: Icons.lock,
                             iconeSufixo: Icons.visibility_off),
-                        SizedBox(height: 120),
-                        BotaoWidget(textoBotao: "Cadastrar"),
+                        SizedBox(height: 170),
+                        BotaoWidget(textoBotao: "Cadastrar", rota: Login(),),
                         Padding(
                           padding: EdgeInsets.fromLTRB(0, 12, 0, 0),
                           child: Text(

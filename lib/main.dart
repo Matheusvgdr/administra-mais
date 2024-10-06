@@ -1,4 +1,4 @@
-import 'package:administra_mais/pages/tela_cadastro.dart';
+import 'package:administra_mais/pages/cadastro.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: TelaCadastro()
+      home: Cadastro()
     );
   }
 }
