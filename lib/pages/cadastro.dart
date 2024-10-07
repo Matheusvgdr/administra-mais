@@ -33,7 +33,7 @@ class Cadastro extends StatelessWidget {
                             placeholder: "Senha",
                             iconePrefixo: Icons.lock,
                             iconeSufixo: Icons.visibility_off),
-                        SizedBox(height: 170),
+                        SizedBox(height: 120),
                         BotaoWidget(textoBotao: "Cadastrar", rota: Login(),),
                         Padding(
                           padding: EdgeInsets.fromLTRB(0, 12, 0, 0),
